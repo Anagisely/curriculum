@@ -1,0 +1,119 @@
+header{
+    text-align: right;
+    margin: 0 .75em;
+    font-size:50px;
+    font-weight:100;
+    position:relative;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav li{
+    display:inline-block;
+}
+header nav li a{
+    color: rgb(115, 12, 146);
+    font-size: 25px;
+    right: 0px; 
+    margin-right: auto;
+    list-style: none;
+    text-decoration: none;
+}
+header nav li a:hover{
+    background-color:  rgb(115, 12, 146);
+    color: white;
+}
+.menu{
+    border:1px solid  rgb(115, 12, 146);
+    padding: 5px;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+    border-radius: 8%;
+}
+.center{
+    color: rgb(115, 12, 146);
+    display: block;
+    width: 250px;
+    padding: auto;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top:50px;
+   
+}
+.center img{
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+    border-radius: 50%;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(115, 12, 146);
+}
+h2{
+    font-family: 'Dancing Script', cursive; 
+    color: rgb(115, 12, 146);
+    font-size: 24px;
+}
+main{
+    color: rgb(115, 12, 146);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    position: relative;
+    top:25px;
+    bottom: 0px;
+    right: 10px;
+    left: 10px;
+    font-size: 30px;
+    justify-content: space-between;
+    
+    
+}
+main a{
+    text-decoration: none;
+    color: rgb(115, 12, 146);
+}
+main a:hover{
+    background-color:  rgb(115, 12, 146);
+    color: white;
+}
+@media (max-width:600px){
+   main{
+        flex-direction:column ;
+        
+        font-size: 20px;
+        }
+    main a{
+        flex-wrap: wrap;
+    }
+    .rigth{
+        justify-content: flex-end;
+    }
+}
+.left{
+    margin: 10px;
+    padding: 30px;
+    width: 40%;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+}
+.rigth{
+    margin: 10px;
+    padding: 30px;
+    width: 40%;
+    box-shadow: -5px -5px 3px  rgb(175, 137, 211);   
+}
+
+body{
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(115, 12, 146);
+    text-shadow: 5px -5px 3px rgb(175, 137, 211);
+}
